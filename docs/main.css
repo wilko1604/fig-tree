@@ -36,14 +36,14 @@ th {
 th:hover {
 	background-color: #B6EC96;
 	border-color: #384536;
-	border-style: solid;
+	border-style: outset;
 	border-width: 1px;
 	}
 #table-head-empty {
 	width: auto;
 }
 #table-head-empty:hover {
-		 background-color: #FFFFFF
-
+	background-color: #FFFFFF;
+	border-style: hidden;
 }
 
