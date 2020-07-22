@@ -86,3 +86,7 @@ th:hover {
 	border-style: outset;
 	border-width: 1px;
 }
+
+.mainImage {
+	height: 150px;
+}
