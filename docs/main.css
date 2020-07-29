@@ -17,13 +17,10 @@ body {
 
 main {
 	background-color: #F2F2F2;
-	padding-left: 50px;
-	padding-right: 50px;
 	margin-left: 5%;
 	margin-right: 5%;
 	padding-top: 90px;
 	
-	top: 90px;	
 	width: 70%;
     margin: 0 auto;
 	
@@ -44,6 +41,11 @@ h2 {
 	font-family: Futura;
 }
 
+h3 {
+	color: #38352e;
+	font-size: 26px;
+}
+
 a {
 	text-decoration: none;
 }
@@ -52,7 +54,7 @@ p {
 	margin: 16px 0;
 	font-family: "helvetica";
 	padding: 0;
-	colour: #58595b;
+	color: #161916;
 }
 
 img {
@@ -270,7 +272,6 @@ main p {
 	text-align: center;
 	margin: 0 auto;
 
-
 }
 
 /* why end */
@@ -289,29 +290,90 @@ main p {
 */
 .name-reason {
 	vertical-align: top;
-    display: inline-block;
+    display: block;
     text-align: center;
-    width: 100%;
-	margin: 0 -50px;
-	display:block;
+    width: 61.8%;
+
+	margin-left: auto;
+	margin-right: auto;
 	box-sizing: border-box;
 	padding: 0;
-	background-color: #38352e;
-	
+	border: 3px solid #38352e;
+
 }
 
 .name-reason img {
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	position: center;
+  repeat: no-repeat;
+  size: cover;
+		border-bottom: 2px solid #38352e;
+
+
 	
 }
 
 .caption {
-    display: block;
+	display: inline-block;
+	margin: 0 auto;
+
 }
+
+.caption h3 {
+	margin: 10px 40px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #38352e;
+
+	
+}
+
+.caption p {
+	margin: 10px 10px;
+	padding: 10px 5px;
+
+}
+
 
 /* Name Reason End */
 
+/* Content Start */
 
+.content {
+	text-align: center;
+		padding: 40px 0;
 
+}
+
+.content p {
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+/* Content End */
+
+/* Projects Start */
+
+.project-tiles {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+align-content: center;
+	justify-content: center;
+	width: 100%;
+	
+}
+
+.project-tiles div{
+	width: 38.2%;
+	text-align: center;
+	border: 1px solid #38352e;
+}
+
+/* Projects End */
 
 /* 1st Content Start*/
 
